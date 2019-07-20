@@ -1,0 +1,267 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body{
+height:100%;
+width:100%;
+font-family:'poppins', sans-sarif;
+color:#222;
+
+}
+
+
+.navbar{
+padding:0px;
+}
+
+.navbar-nav li
+{
+	padding-right:20px;
+	
+}
+
+.nav-link
+{
+  font-size:22px;	
+}
+
+.carousel-inner{
+	height:100%;
+	width:100%;
+	
+}
+
+.carousel-caption{
+ position:absolute;
+ top:50%;
+ transform:translateY(-50%);	
+	
+}
+
+.carousel-caption h1
+{
+ font-size:500%;
+ text-transform:uppercase;
+ text-shadow:5px 5px 10px #666;
+}
+
+.carousel-caption h3{
+  font-size:200%;
+  font-weight:500;
+  text-shadow:5px 5px 10px #000;
+  padding-bottom:1rem;	
+}
+
+.btn-primary
+{
+	background-color: #90C;
+	border:1px solid #909;
+}
+
+
+.btn-primary:hover
+{
+	background-color: #F3C ;
+	border:1px solid double #F3F;
+}
+
+.jumbotron
+
+{
+  padding:1rem;
+  border-radius:0;	
+  width:100%;
+  margin-left:1px;;
+}
+
+.padding
+{
+  padding-bottom:2rem;	
+}
+
+.welcome
+{
+ width:75%;
+ padding-top:2rem;
+ margin:0 auto;	
+	
+}
+
+.welcome hr{
+border-top:2px solid #b4b4b4;
+margin-top:.3rem;
+margin-bottom:1rem;	
+width:98%;
+}
+
+.fa-code{
+	color: #F30; 
+}
+
+.fa-bold{
+	color:#909;
+	
+}
+
+.fa-css3{
+ color:#F00;
+}
+
+
+.fa-code, .fa-bold, .fa-css3
+{
+	
+	font-size:2em;
+	margin:1rem;
+}
+
+.fun
+{
+	width:100%;
+	margin-bottom:2rem;
+	
+}
+
+.gif
+{
+ max-width:100%;	
+}
+
+.social a
+{
+ font-size:4.5em;
+ padding:3rem;	
+	
+}
+.fa-facebook
+{
+ color:#003;
+}
+
+.fa-twitter{
+ color:#06F;	
+}
+
+.fa-google-plus-g{
+  color:#900;	
+}
+
+.fa-instagram{
+color:#369;	
+	
+
+}
+
+
+.fa-youtube{
+	color:#900;
+	
+}
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover,
+.fa-youtube:hover{
+	color:#333;
+	
+}
+
+footer
+{
+ background-color: #666 ;
+ color:#d5d5d5;	
+ padding-top:2rem;
+}
+
+hr.light{
+border-top:1px solid #CCC;
+width:75%;	
+margin-top:.8rem;
+margin-bottom:1rem;	
+}
+
+
+/* media queries */
+
+@media(max-width: 992px){
+.social a{	
+	font-size:4em;
+	padding:2rem;
+}
+}
+
+@media(max-width:768px){
+	
+.carousel-caption{
+ 
+ top:45%%;
+ 
+	
+}
+
+.carousel-caption h1
+{
+ font-size:350%;
+ 
+}
+
+.carousel-caption h3{
+  font-size:140%;
+  font-weight:400;
+
+  padding-bottom:.2rem;	
+}
+
+.carousel-caption .btn{
+	
+	font-size:95%;
+	padding:8px 14px;
+}
+
+	
+.display-4{
+ font-size:100%;	
+}
+
+.social a{	
+	font-size:2.5em;
+	padding:1.5rem;
+}
+}
+
+@media(max-width:576px){
+	
+	
+.carousel-caption{
+  top:40%%;
+ }
+
+.carousel-caption h1
+{
+ font-size:250%;
+ }
+
+.carousel-caption h3{
+  font-size:110%;
+  
+}
+
+.carousel-caption .btn{
+	font-size:90%;
+	padding:4px 8px;
+}
+
+.carousel-indicators
+{
+ display:none;	
+}
+
+.display-4{
+ font-size:160%;	
+}
+
+.social a{	
+	font-size:2em;
+	padding:.7rem;
+}
+}
